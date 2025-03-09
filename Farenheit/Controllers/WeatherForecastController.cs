@@ -180,10 +180,10 @@ namespace Fahrenheit451API.Controllers
             }
 
             return "Available commands:\n" + 
-                        "help - Opens this menu\n" +
-                        "books - Lists all books available to you\n" +
-                        "open {book} - Shows you a section book saved in our database\n" +
-                        additionalStuff;
+                    "help - Opens this menu\n" +
+                    "books - Lists all books available to you\n" +
+                    "open {book} - Shows you a section book saved in our database\n" +
+                    additionalStuff;
         }
 
         private bool CheckForName(string input)

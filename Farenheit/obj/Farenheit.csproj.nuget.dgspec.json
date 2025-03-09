@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Gary/Coding/C#/f451/Farenheit-451/Farenheit/Farenheit.csproj": {}
+    "/Users/Gary/Documents/GitHub/Farenheit-451/Farenheit/Farenheit.csproj": {}
   },
   "projects": {
-    "/Users/Gary/Coding/C#/f451/Farenheit-451/Farenheit/Farenheit.csproj": {
+    "/Users/Gary/Documents/GitHub/Farenheit-451/Farenheit/Farenheit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Gary/Coding/C#/f451/Farenheit-451/Farenheit/Farenheit.csproj",
+        "projectUniqueName": "/Users/Gary/Documents/GitHub/Farenheit-451/Farenheit/Farenheit.csproj",
         "projectName": "Farenheit",
-        "projectPath": "/Users/Gary/Coding/C#/f451/Farenheit-451/Farenheit/Farenheit.csproj",
+        "projectPath": "/Users/Gary/Documents/GitHub/Farenheit-451/Farenheit/Farenheit.csproj",
         "packagesPath": "/Users/Gary/.nuget/packages/",
-        "outputPath": "/Users/Gary/Coding/C#/f451/Farenheit-451/Farenheit/obj/",
+        "outputPath": "/Users/Gary/Documents/GitHub/Farenheit-451/Farenheit/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
