@@ -129,6 +129,8 @@ namespace Fahrenheit451API.Controllers
             // Make sure the input is sanitized and used correctly in the file path
             string filePath = Path.Combine(_textFileDirectory, input + ".txt");
 
+            return $"Looking for file: {filePath}\nExists: {System.IO.File.Exists(filePath)}"; 
+
             if (limited && (filePath == books[author])) {
                 return System.IO.File.ReadAllText(filePath);
             }
@@ -180,6 +182,7 @@ namespace Fahrenheit451API.Controllers
             return "Available commands:\n" + 
                         "help - Opens this menu\n" +
                         "books - Lists all books available to you\n" +
+                        "open {book} - Shows you a section book saved in our database\n" +
                         additionalStuff;
         }
 
