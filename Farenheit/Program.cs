@@ -27,8 +27,7 @@ app.UseCors(policy =>
           .AllowAnyMethod()
           .AllowAnyHeader());
 
-//app.UseDefaultFiles(); // Enables serving index.html by default
-app.UseStaticFiles();
+app.UseStaticFiles(); // Enable serving static files (index.html)
 
 app.UseAuthorization();
 
